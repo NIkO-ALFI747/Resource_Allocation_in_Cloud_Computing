@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="task_stage.cpp">
+      <Filter>Source Files\environment</Filter>
+    </ClCompile>
+    <ClCompile Include="task.cpp">
+      <Filter>Source Files\environment</Filter>
+    </ClCompile>
+    <ClCompile Include="server.cpp">
+      <Filter>Source Files\environment</Filter>
+    </ClCompile>
+    <ClCompile Include="env_state.cpp">
+      <Filter>Source Files\environment</Filter>
+    </ClCompile>
+    <ClCompile Include="env.cpp">
+      <Filter>Source Files\environment</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_weighting_agent.cpp">
+      <Filter>Source Files\agents</Filter>
+    </ClCompile>
+    <ClCompile Include="task_pricing_agent.cpp">
+      <Filter>Source Files\agents</Filter>
+    </ClCompile>
+    <ClCompile Include="rl_agent.cpp">
+      <Filter>Source Files\agents\rl</Filter>
+    </ClCompile>
+    <ClCompile Include="dqn_alg.cpp">
+      <Filter>Source Files\training\algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="train_agents.cpp">
+      <Filter>Source Files\training\train_agents</Filter>
+    </ClCompile>
+    <ClCompile Include="eval_results.cpp">
+      <Filter>Source Files\training\evaluation</Filter>
+    </ClCompile>
+    <ClCompile Include="cloud_resource_allocation.cpp">
+      <Filter>Source Files\main</Filter>
+    </ClCompile>
+    <ClCompile Include="dqn_agent.cpp">
+      <Filter>Source Files\agents\rl\dqn</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F23262D7-7A28-3657-BA8F-128552BB4444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\agents">
+      <UniqueIdentifier>{9be30b0d-cc20-44e3-962d-a759b28ff8fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\agents\rl">
+      <UniqueIdentifier>{4edfd15a-c8f6-43e0-ae4b-6c5e1c7b6bc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\agents\rl\dqn">
+      <UniqueIdentifier>{315e0f49-8ea2-46d8-80e3-872ebaafeb83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\environment">
+      <UniqueIdentifier>{dddb1768-9669-4ea5-9bbf-c7deb635594f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\main">
+      <UniqueIdentifier>{f2d6115b-a61c-4e2a-9f5b-87f7f762affc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\training">
+      <UniqueIdentifier>{ea53778a-f43b-4e53-ae65-0b7a58d99eea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\training\train_agents">
+      <UniqueIdentifier>{1fd88bd3-2bbf-472b-ba06-a7bcfc90b688}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\training\evaluation">
+      <UniqueIdentifier>{45e06354-c14c-4ba0-9c88-578c490a99d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\training\algorithm">
+      <UniqueIdentifier>{35726fd7-fe0a-48ed-b1a3-202f1eeee094}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="task_stage.h">
+      <Filter>Source Files\environment</Filter>
+    </ClInclude>
+    <ClInclude Include="task.h">
+      <Filter>Source Files\environment</Filter>
+    </ClInclude>
+    <ClInclude Include="server.h">
+      <Filter>Source Files\environment</Filter>
+    </ClInclude>
+    <ClInclude Include="env_state.h">
+      <Filter>Source Files\environment</Filter>
+    </ClInclude>
+    <ClInclude Include="env.h">
+      <Filter>Source Files\environment</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_weighting_agent.h">
+      <Filter>Source Files\agents</Filter>
+    </ClInclude>
+    <ClInclude Include="task_pricing_agent.h">
+      <Filter>Source Files\agents</Filter>
+    </ClInclude>
+    <ClInclude Include="rl_agent.h">
+      <Filter>Source Files\agents\rl</Filter>
+    </ClInclude>
+    <ClInclude Include="dqn_alg.h">
+      <Filter>Source Files\training\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="train_agents.h">
+      <Filter>Source Files\training\train_agents</Filter>
+    </ClInclude>
+    <ClInclude Include="eval_results.h">
+      <Filter>Source Files\training\evaluation</Filter>
+    </ClInclude>
+    <ClInclude Include="dqn_agent.h">
+      <Filter>Source Files\agents\rl\dqn</Filter>
+    </ClInclude>
+    <ClInclude Include="dq_network.h">
+      <Filter>Source Files\agents\rl\dqn</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

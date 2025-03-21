@@ -1,0 +1,9 @@
+# Dependencies directory
+dependencies/
+
+# Build directories
+Resource_Allocation_in_Cloud_Computing/Resource_Allocation_in_Cloud_Computing.dir/Debug/
+Resource_Allocation_in_Cloud_Computing/x64/Debug/
+
+# IDE directory
+.vs/
